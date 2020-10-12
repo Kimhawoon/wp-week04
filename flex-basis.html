@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>flex-basis 실습</title>
+    <style>
+        .flex-box {
+          display: flex;
+          width: 250px; height: 250px;
+          background-color: lightgray;
+        }
+        .flex-item {
+          width: 100px;
+          margin: 10px;
+          background-color: cornflowerblue;
+          flex-grow: 1;
+          flex-basis: auto;
+          /* flex-basis: 0; */
+          /* flex-basis: 100px; */
+        }
+    </style>
+    </head>
+    <body>
+      <div class="flex-box">
+        <div class="flex-item item1">1</div>
+        <div class="flex-item item2">1234567890</div>
+        <div class="flex-item item3">12345</div>
+      </div>
+    </body>
+    </html>
+    
